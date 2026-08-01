@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Assistant Chatbot</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background"></div>
+
+    <div class="chat-container">
+
+        <!-- Header -->
+
+        <header class="chat-header">
+
+            <div class="header-left">
+
+                <div class="bot-logo">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+
+                <div>
+
+                    <h2>Campus Assistant</h2>
+
+                    <span class="status">
+                        <span class="status-dot"></span>
+                        Online
+                    </span>
+
+                </div>
+
+            </div>
+
+            <div class="header-right">
+
+                <button id="themeBtn" title="Dark Mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+                <button id="clearBtn" title="Clear Chat">
+                    <i class="fa-solid fa-trash"></i>
+                </button>
+
+            </div>
+
+        </header>
+
+        <!-- Chat Body -->
+
+        <div class="chat-box" id="chatBox">
+
+            <div class="message bot-message">
+
+                <div class="avatar">
+                    <i class="fa-solid fa-robot"></i>
+                </div>
+
+                <div class="message-content">
+
+                    <p>
+                        👋 Hello! Welcome to the Campus Assistant Chatbot.
+                    </p>
+
+                    <p>
+                        I can help you with:
+                    </p>
+
+                    <ul>
+
+                        <li>📘 Courses</li>
+                        <li>📝 Admission</li>
+                        <li>💰 Fees</li>
+                        <li>📚 Library</li>
+                        <li>🏠 Hostel</li>
+                        <li>🎓 Placement</li>
+                        <li>🏆 Scholarship</li>
+                        <li>☎ Contact</li>
+
+                    </ul>
+
+                    <span class="time">Now</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Quick Replies -->
+
+        <div class="quick-replies">
+
+            <button class="quick-btn">Courses</button>
+
+            <button class="quick-btn">Admission</button>
+
+            <button class="quick-btn">Fees</button>
+
+            <button class="quick-btn">Library</button>
+
+            <button class="quick-btn">Placement</button>
+
+        </div>
+
+        <!-- Typing Indicator -->
+
+        <div class="typing-area" id="typingArea">
+
+            <div class="typing-avatar">
+                <i class="fa-solid fa-robot"></i>
+            </div>
+
+            <div class="typing-bubble">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+        </div>
+
+        <!-- Input -->
+
+        <div class="input-area">
+
+            <button id="voiceBtn" title="Voice Input">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+
+            <input type="text"
+                id="userInput"
+                placeholder="Type your message...">
+
+            <button id="sendBtn">
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
