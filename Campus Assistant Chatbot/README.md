@@ -55,16 +55,6 @@ Add screenshots of:
 
 ---
 
-## 🌐 Live Demo
-
-Deploy using GitHub Pages.
-
-Example:
-
-https://yourusername.github.io/Campus-Assistant-Chatbot/
-
----
-
 ## 👨‍💻 Author
 
 Aayush Shah
